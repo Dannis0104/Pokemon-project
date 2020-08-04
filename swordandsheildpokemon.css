@@ -1,0 +1,53 @@
+@keyframes changecolor{
+	0%{background-color:red;}
+	10%{background-color:orange;}
+	20%{background-color:yellow;}
+	30%{background-color:chartreuse;}
+	40%{background-color:aquamarine;}
+	50%{background-color:green;}
+	60%{background-color:aqua;}
+	70%{background-color:blue;}
+	80%{background-color:darkblue;}
+	90%{background-color:purple;}
+	100%{background-color:gold;}
+}
+body {
+	background-color: darkblue;
+	color: black;
+	animation-name:changecolor;
+	animation-duration: 18s;
+	animation-iteration-count:infinite;
+}
+
+h1 {
+	color:Black;
+	text-align : center;
+}
+p {
+	background-color: blue;
+	font-family: verdana;
+	font-size: 20px;
+}
+
+td{
+	border-style:ridge;
+	border-color:#3F265D;
+	text-align:center;
+}
+
+a{
+	color:yellow;
+}
+
+a:visited { 
+	color: yellow;
+}
+
+a:hover { 
+	color: red;
+}
+
+a:active {
+	color: white;
+}
+		
